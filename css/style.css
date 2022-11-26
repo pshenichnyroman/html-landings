@@ -60,6 +60,11 @@ body {
 
 .nav__link {
   color: #fff;
+  transition: opacity 0.2 ease-in;
+}
+
+.nav__link:hover {
+  opacity: 0.8;
 }
 
 .nav__link--active {
@@ -86,13 +91,18 @@ body {
   align-items: center;
   text-align: center;
   min-height: 695px;
+
+  background-image: url('../img/first_section/section_firts_BG.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .first__container {
   padding: 0 15px;
   max-width: 630px;
-  background-image: url('../img/first_section/Abstract.png');
-  background-size: cover;
+
+
 }
 
 .first__title {
@@ -164,8 +174,18 @@ body {
   text-align: center;
   letter-spacing: 0.15px;
   padding: 12px 28px;
+  transition: opacity 0.2s ease-in;
 }
 
 .btn_link {
   color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
 }
